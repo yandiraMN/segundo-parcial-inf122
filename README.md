@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Programación Web II - INF-122
+## Segundo Parcial
+### Antes de Empezar:
+1. Ingresa a: https://github.com/taicoding/segundo-parcial-inf122
+2. Realiza un **Fork** de este repositorio:
+![Repositorio del Segundo Parcial](https://live.staticflickr.com/65535/53471228574_8c340e806b_b.jpg)
+3. Si vas a trabajar en tu equipo local **clona** el nuevo repositorio resultado del **Fork** y ábrelo con **VSCode** o el editor de tu preferencia para trabajar tu solución. También puedes trabajar tu solución en **GitHub Codespaces**.
+4. En la terminal ejecuta el siguiente `npm install` para instalar las dependencias del proyecto 
+5. En la terminal ejecuta `npm start` para desplegar la app
+6. Limpia el proyecto y crea las carpetas` components` y `styles` dentro de `scr`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Contexto:
+Eres el Desarrollador Front-end Junior en una StartUp que lanzará una nueva app llamada **“Mis metas”** que le ofrece a los usuarios hacer un seguimiento de sus propósitos de año nuevo. 
+El Diseñador UI/UX ha presentado el siguiente [diseño en Figma](https://cutt.ly/GwKRGN18)
 
-## Available Scripts
+### Tarea:
+Te han asignado la tarea de construir un prototipo funcional de la app **“Mis Metas”** con React. Los componentes de la app deben cubrir las siguientes funcionalidades:
+1. Agregar una nueva meta:
 
-In the project directory, you can run:
+![agregar meta](https://live.staticflickr.com/65535/53471332185_f2fe80b5bd_b.jpg)
 
-### `npm start`
+![nueva meta](https://live.staticflickr.com/65535/53470010492_335094b7c7_z.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Marcar una meta como completada:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![completar meta](https://live.staticflickr.com/65535/53471053338_b9f43dcd73_z.jpg)
 
-### `npm test`
+![meta completada](https://live.staticflickr.com/65535/53470911561_f2ce8fa164_b.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Eliminar una meta:
 
-### `npm run build`
+![eliminar meta](https://live.staticflickr.com/65535/53471053348_8d659f2e39_b.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![meta eliminada](https://live.staticflickr.com/65535/53470911556_03295cb9ae_b.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### IMPORTANTE: 
+1. Para construir los componentes debes utilizar lo aprendido en clase: JSX, eventos, estados, grid, flexbox, clases, etc. No se permite el uso de tablas.
+2. La paleta de colores, textos, imágenes, iconos tienen que ser iguales al diseño presentado en Figma.
+### Entrega:
+Una vez tengas la app en **React** debes realizar un **commit** con todos tus cambios a tu repositorio de **GitHub del examen** y adjuntar el **enlace** del mismo en la tarea asignada en **ClassRoom**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
